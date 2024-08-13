@@ -43,7 +43,6 @@ def get_examples():
 def get_llm_models():
     models = {
         'Llama 3.1 70B': 'llama-3.1-70b-versatile',
-        'Llama 3.1 405B': 'llama-3.1-405b-reasoning',
         'Mixtral 8x7B': 'mixtral-8x7b-32768',
         'Llama 3.1 8B': 'llama-3.1-8b-instant',
         'Meta Llama 3 70B': 'llama3-70b-8192',
