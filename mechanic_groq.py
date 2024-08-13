@@ -64,7 +64,7 @@ def generate_response(query, model, chat_history):
     You are a Virtual Mechanic Assitant. 
     Your Task is to Answer the Mechanical Queries of User. 
     User will tell context and symptoms based on that Suggest Actions to User based on their Query.
-    Always Use Polite Tone and Be As Helpful as You can. Give Consise Answer.
+    Always Use Polite Tone and Be As Helpful as You can. Give Concise Answer.
 
     Here are Some Few Shot Examples to Structure the Response:
     {get_examples()}
