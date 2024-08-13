@@ -4,7 +4,7 @@ import os
 
 
 def get_model(selected_model_name):
-    groq_api_key = "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"
+    groq_api_key = st.secrets['groq_api_key']
     os.environ['GROQ_API_KEY'] = groq_api_key
 
     model_name = selected_model_name
